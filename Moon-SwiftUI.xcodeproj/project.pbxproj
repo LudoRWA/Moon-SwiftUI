@@ -1,0 +1,740 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22266938283B7097008A4739 /* HeaderValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22266937283B7097008A4739 /* HeaderValues.swift */; };
+		2226693A283BC2D9008A4739 /* OpenSeaError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22266939283BC2D9008A4739 /* OpenSeaError.swift */; };
+		22266940283BC456008A4739 /* DetailsPager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2226693F283BC456008A4739 /* DetailsPager.swift */; };
+		22266942283BC4CE008A4739 /* DetailsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22266941283BC4CE008A4739 /* DetailsList.swift */; };
+		22266945283BDDD0008A4739 /* ErrorInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22266944283BDDD0008A4739 /* ErrorInfo.swift */; };
+		22278E89284F7A9900835FA0 /* AddWalletViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22278E88284F7A9900835FA0 /* AddWalletViewModel.swift */; };
+		222B25182848C3070058A2F0 /* DetailsGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222B25172848C3070058A2F0 /* DetailsGroup.swift */; };
+		2248330D283CCB2A0016E074 /* NukeUI in Frameworks */ = {isa = PBXBuildFile; productRef = 2248330C283CCB2A0016E074 /* NukeUI */; };
+		2248330F283CD9250016E074 /* DetailsOpenButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2248330E283CD9250016E074 /* DetailsOpenButton.swift */; };
+		22483314283CFCB00016E074 /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22483313283CFCB00016E074 /* ErrorView.swift */; };
+		22483316283D00320016E074 /* PopupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22483315283D00320016E074 /* PopupView.swift */; };
+		22A28A592847958700EE7263 /* DetailsTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A28A582847958700EE7263 /* DetailsTextView.swift */; };
+		22A7216028362CC40050EC2C /* AssetHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A7215F28362CC40050EC2C /* AssetHeader.swift */; };
+		22A7216328363E000050EC2C /* SwiftfulLoadingIndicators in Frameworks */ = {isa = PBXBuildFile; productRef = 22A7216228363E000050EC2C /* SwiftfulLoadingIndicators */; };
+		22A721652836693F0050EC2C /* CustomPagerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A721642836693F0050EC2C /* CustomPagerView.swift */; };
+		22BAE955284F4B6400CEE0B7 /* AddWalletView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BAE954284F4B6400CEE0B7 /* AddWalletView.swift */; };
+		22BAE957284F4BF800CEE0B7 /* AddWalletNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BAE956284F4BF800CEE0B7 /* AddWalletNavigationView.swift */; };
+		22BAE959284F4D0400CEE0B7 /* AddWalletScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BAE958284F4D0400CEE0B7 /* AddWalletScrollView.swift */; };
+		22BAE95B284F4D1500CEE0B7 /* AddWalletButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BAE95A284F4D1500CEE0B7 /* AddWalletButtons.swift */; };
+		22C394D02834E011003551CF /* MoonApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C394CF2834E011003551CF /* MoonApp.swift */; };
+		22C394D22834E011003551CF /* AssetsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C394D12834E011003551CF /* AssetsView.swift */; };
+		22C394D42834E012003551CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22C394D32834E012003551CF /* Assets.xcassets */; };
+		22C394D72834E012003551CF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22C394D62834E012003551CF /* Preview Assets.xcassets */; };
+		22C394E32834EB40003551CF /* previewData.json in Resources */ = {isa = PBXBuildFile; fileRef = 22C394E22834EB40003551CF /* previewData.json */; };
+		22C394EC2834ECC9003551CF /* AssetRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C394EB2834ECC9003551CF /* AssetRow.swift */; };
+		22C394EE2834EE1A003551CF /* AssetsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C394ED2834EE1A003551CF /* AssetsList.swift */; };
+		22C394F02834EF30003551CF /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C394EF2834EF30003551CF /* DetailsView.swift */; };
+		22C394F728352025003551CF /* AssetsNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C394F628352025003551CF /* AssetsNavigationView.swift */; };
+		22C394FC2835313C003551CF /* ScaleListSelectionStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C394FB2835313C003551CF /* ScaleListSelectionStyle.swift */; };
+		22C395002835390C003551CF /* UINavigationController+UIGestureRecognizerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C394FF2835390C003551CF /* UINavigationController+UIGestureRecognizerDelegate.swift */; };
+		22C3950628353A69003551CF /* DetailsNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C3950528353A69003551CF /* DetailsNavigationView.swift */; };
+		22DB47992837897400220DBF /* OpenSeaServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DB47972837897400220DBF /* OpenSeaServiceProtocol.swift */; };
+		22DB479A2837897400220DBF /* CoinbaseServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DB47982837897400220DBF /* CoinbaseServiceProtocol.swift */; };
+		22DB47A02837899600220DBF /* CoinbaseError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DB479C2837899600220DBF /* CoinbaseError.swift */; };
+		22DB47A22837899600220DBF /* CoinbaseServiceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DB479E2837899600220DBF /* CoinbaseServiceModel.swift */; };
+		22DB47A32837899600220DBF /* OpenSeaServiceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DB479F2837899600220DBF /* OpenSeaServiceModel.swift */; };
+		22DB47A52837924C00220DBF /* AssetsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DB47A42837924C00220DBF /* AssetsViewModel.swift */; };
+		22DB47A72837962D00220DBF /* Asset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DB47A62837962D00220DBF /* Asset.swift */; };
+		22DB47AB283796CA00220DBF /* Array+Insertion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DB47AA283796CA00220DBF /* Array+Insertion.swift */; };
+		22DB47AD2837D91500220DBF /* PreviewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DB47AC2837D91400220DBF /* PreviewData.swift */; };
+		22FAC1E8285365F700FD671A /* View+HideKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FAC1E7285365F700FD671A /* View+HideKeyboard.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		22266937283B7097008A4739 /* HeaderValues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderValues.swift; sourceTree = "<group>"; };
+		22266939283BC2D9008A4739 /* OpenSeaError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpenSeaError.swift; sourceTree = "<group>"; };
+		2226693F283BC456008A4739 /* DetailsPager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsPager.swift; sourceTree = "<group>"; };
+		22266941283BC4CE008A4739 /* DetailsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsList.swift; sourceTree = "<group>"; };
+		22266944283BDDD0008A4739 /* ErrorInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorInfo.swift; sourceTree = "<group>"; };
+		22278E88284F7A9900835FA0 /* AddWalletViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddWalletViewModel.swift; sourceTree = "<group>"; };
+		222B25172848C3070058A2F0 /* DetailsGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsGroup.swift; sourceTree = "<group>"; };
+		2248330E283CD9250016E074 /* DetailsOpenButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsOpenButton.swift; sourceTree = "<group>"; };
+		22483313283CFCB00016E074 /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
+		22483315283D00320016E074 /* PopupView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopupView.swift; sourceTree = "<group>"; };
+		22A28A582847958700EE7263 /* DetailsTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsTextView.swift; sourceTree = "<group>"; };
+		22A7215F28362CC40050EC2C /* AssetHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetHeader.swift; sourceTree = "<group>"; };
+		22A721642836693F0050EC2C /* CustomPagerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPagerView.swift; sourceTree = "<group>"; };
+		22BAE954284F4B6400CEE0B7 /* AddWalletView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddWalletView.swift; sourceTree = "<group>"; };
+		22BAE956284F4BF800CEE0B7 /* AddWalletNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddWalletNavigationView.swift; sourceTree = "<group>"; };
+		22BAE958284F4D0400CEE0B7 /* AddWalletScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddWalletScrollView.swift; sourceTree = "<group>"; };
+		22BAE95A284F4D1500CEE0B7 /* AddWalletButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddWalletButtons.swift; sourceTree = "<group>"; };
+		22C394CC2834E011003551CF /* Moon-SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Moon-SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		22C394CF2834E011003551CF /* MoonApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoonApp.swift; sourceTree = "<group>"; };
+		22C394D12834E011003551CF /* AssetsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetsView.swift; sourceTree = "<group>"; };
+		22C394D32834E012003551CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		22C394D62834E012003551CF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		22C394E22834EB40003551CF /* previewData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = previewData.json; sourceTree = "<group>"; };
+		22C394EB2834ECC9003551CF /* AssetRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetRow.swift; sourceTree = "<group>"; };
+		22C394ED2834EE1A003551CF /* AssetsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetsList.swift; sourceTree = "<group>"; };
+		22C394EF2834EF30003551CF /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
+		22C394F628352025003551CF /* AssetsNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetsNavigationView.swift; sourceTree = "<group>"; };
+		22C394FB2835313C003551CF /* ScaleListSelectionStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScaleListSelectionStyle.swift; sourceTree = "<group>"; };
+		22C394FF2835390C003551CF /* UINavigationController+UIGestureRecognizerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UINavigationController+UIGestureRecognizerDelegate.swift"; sourceTree = "<group>"; };
+		22C3950528353A69003551CF /* DetailsNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsNavigationView.swift; sourceTree = "<group>"; };
+		22DB47972837897400220DBF /* OpenSeaServiceProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpenSeaServiceProtocol.swift; sourceTree = "<group>"; };
+		22DB47982837897400220DBF /* CoinbaseServiceProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoinbaseServiceProtocol.swift; sourceTree = "<group>"; };
+		22DB479C2837899600220DBF /* CoinbaseError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoinbaseError.swift; sourceTree = "<group>"; };
+		22DB479E2837899600220DBF /* CoinbaseServiceModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoinbaseServiceModel.swift; sourceTree = "<group>"; };
+		22DB479F2837899600220DBF /* OpenSeaServiceModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpenSeaServiceModel.swift; sourceTree = "<group>"; };
+		22DB47A42837924C00220DBF /* AssetsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetsViewModel.swift; sourceTree = "<group>"; };
+		22DB47A62837962D00220DBF /* Asset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Asset.swift; sourceTree = "<group>"; };
+		22DB47AA283796CA00220DBF /* Array+Insertion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Insertion.swift"; sourceTree = "<group>"; };
+		22DB47AC2837D91400220DBF /* PreviewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewData.swift; sourceTree = "<group>"; };
+		22FAC1E7285365F700FD671A /* View+HideKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+HideKeyboard.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22C394C92834E011003551CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22A7216328363E000050EC2C /* SwiftfulLoadingIndicators in Frameworks */,
+				2248330D283CCB2A0016E074 /* NukeUI in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2226693B283BC2E1008A4739 /* OpenSea */ = {
+			isa = PBXGroup;
+			children = (
+				2226693D283BC2FF008A4739 /* Models */,
+				22DB47972837897400220DBF /* OpenSeaServiceProtocol.swift */,
+			);
+			path = OpenSea;
+			sourceTree = "<group>";
+		};
+		2226693C283BC2F2008A4739 /* Coinbase */ = {
+			isa = PBXGroup;
+			children = (
+				22DB479B2837898D00220DBF /* Models */,
+				22DB47982837897400220DBF /* CoinbaseServiceProtocol.swift */,
+			);
+			path = Coinbase;
+			sourceTree = "<group>";
+		};
+		2226693D283BC2FF008A4739 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				22DB479F2837899600220DBF /* OpenSeaServiceModel.swift */,
+				22266939283BC2D9008A4739 /* OpenSeaError.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2226693E283BC3C8008A4739 /* PagerView */ = {
+			isa = PBXGroup;
+			children = (
+				22A721642836693F0050EC2C /* CustomPagerView.swift */,
+			);
+			path = PagerView;
+			sourceTree = "<group>";
+		};
+		22266943283BDDC6008A4739 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				22483317283D0A670016E074 /* ErrorPopup */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		22278E87284F7A7F00835FA0 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				22278E88284F7A9900835FA0 /* AddWalletViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		22483317283D0A670016E074 /* ErrorPopup */ = {
+			isa = PBXGroup;
+			children = (
+				22483319283D0AB00016E074 /* Views */,
+				22483318283D0AA30016E074 /* Model */,
+			);
+			path = ErrorPopup;
+			sourceTree = "<group>";
+		};
+		22483318283D0AA30016E074 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				22266944283BDDD0008A4739 /* ErrorInfo.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		22483319283D0AB00016E074 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				22483313283CFCB00016E074 /* ErrorView.swift */,
+				22483315283D00320016E074 /* PopupView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		22A28A572847957000EE7263 /* UIViewRepresentable */ = {
+			isa = PBXGroup;
+			children = (
+				22A28A582847958700EE7263 /* DetailsTextView.swift */,
+			);
+			path = UIViewRepresentable;
+			sourceTree = "<group>";
+		};
+		22BAE952284F4AB900CEE0B7 /* AddWallet */ = {
+			isa = PBXGroup;
+			children = (
+				22BAE953284F4AEF00CEE0B7 /* Views */,
+				22278E87284F7A7F00835FA0 /* ViewModel */,
+			);
+			path = AddWallet;
+			sourceTree = "<group>";
+		};
+		22BAE953284F4AEF00CEE0B7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				22BAE954284F4B6400CEE0B7 /* AddWalletView.swift */,
+				22BAE956284F4BF800CEE0B7 /* AddWalletNavigationView.swift */,
+				22BAE958284F4D0400CEE0B7 /* AddWalletScrollView.swift */,
+				22BAE95A284F4D1500CEE0B7 /* AddWalletButtons.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		22C394C32834E011003551CF = {
+			isa = PBXGroup;
+			children = (
+				22C394CE2834E011003551CF /* Moon-SwiftUI */,
+				22C394CD2834E011003551CF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		22C394CD2834E011003551CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22C394CC2834E011003551CF /* Moon-SwiftUI.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22C394CE2834E011003551CF /* Moon-SwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				22C394CF2834E011003551CF /* MoonApp.swift */,
+				22C394F128351FD3003551CF /* Screens */,
+				22DB47962837893400220DBF /* Services */,
+				22C394FD2835389C003551CF /* Extensions */,
+				22C394F82835311F003551CF /* Styles */,
+				22266943283BDDC6008A4739 /* Shared */,
+				22C394D32834E012003551CF /* Assets.xcassets */,
+				22C394D52834E012003551CF /* Preview Content */,
+			);
+			path = "Moon-SwiftUI";
+			sourceTree = "<group>";
+		};
+		22C394D52834E012003551CF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				22C394E12834EB33003551CF /* Resources */,
+				22DB47AC2837D91400220DBF /* PreviewData.swift */,
+				22C394D62834E012003551CF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		22C394E12834EB33003551CF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				22C394E22834EB40003551CF /* previewData.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		22C394EA2834ECBE003551CF /* Rows */ = {
+			isa = PBXGroup;
+			children = (
+				22C394EB2834ECC9003551CF /* AssetRow.swift */,
+				22A7215F28362CC40050EC2C /* AssetHeader.swift */,
+			);
+			path = Rows;
+			sourceTree = "<group>";
+		};
+		22C394F128351FD3003551CF /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				22C394F228351FD8003551CF /* Assets */,
+				22C3950128353A39003551CF /* Details */,
+				22BAE952284F4AB900CEE0B7 /* AddWallet */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		22C394F228351FD8003551CF /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				22C394F328351FDD003551CF /* Model */,
+				22C394F428351FE6003551CF /* View */,
+				22C394F528351FEE003551CF /* ViewModel */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		22C394F328351FDD003551CF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				22DB47A62837962D00220DBF /* Asset.swift */,
+				22266937283B7097008A4739 /* HeaderValues.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		22C394F428351FE6003551CF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				22C394EA2834ECBE003551CF /* Rows */,
+				22C394D12834E011003551CF /* AssetsView.swift */,
+				22C394F628352025003551CF /* AssetsNavigationView.swift */,
+				22C394ED2834EE1A003551CF /* AssetsList.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		22C394F528351FEE003551CF /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				22DB47A42837924C00220DBF /* AssetsViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		22C394F82835311F003551CF /* Styles */ = {
+			isa = PBXGroup;
+			children = (
+				22C394F92835312B003551CF /* Button */,
+			);
+			path = Styles;
+			sourceTree = "<group>";
+		};
+		22C394F92835312B003551CF /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				22C394FB2835313C003551CF /* ScaleListSelectionStyle.swift */,
+			);
+			path = Button;
+			sourceTree = "<group>";
+		};
+		22C394FD2835389C003551CF /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				22C394FF2835390C003551CF /* UINavigationController+UIGestureRecognizerDelegate.swift */,
+				22DB47AA283796CA00220DBF /* Array+Insertion.swift */,
+				22FAC1E7285365F700FD671A /* View+HideKeyboard.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		22C3950128353A39003551CF /* Details */ = {
+			isa = PBXGroup;
+			children = (
+				22C3950328353A47003551CF /* Views */,
+			);
+			path = Details;
+			sourceTree = "<group>";
+		};
+		22C3950328353A47003551CF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				22A28A572847957000EE7263 /* UIViewRepresentable */,
+				2226693E283BC3C8008A4739 /* PagerView */,
+				22C394EF2834EF30003551CF /* DetailsView.swift */,
+				22C3950528353A69003551CF /* DetailsNavigationView.swift */,
+				22266941283BC4CE008A4739 /* DetailsList.swift */,
+				2226693F283BC456008A4739 /* DetailsPager.swift */,
+				222B25172848C3070058A2F0 /* DetailsGroup.swift */,
+				2248330E283CD9250016E074 /* DetailsOpenButton.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		22DB47962837893400220DBF /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				2226693C283BC2F2008A4739 /* Coinbase */,
+				2226693B283BC2E1008A4739 /* OpenSea */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		22DB479B2837898D00220DBF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				22DB479E2837899600220DBF /* CoinbaseServiceModel.swift */,
+				22DB479C2837899600220DBF /* CoinbaseError.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		22C394CB2834E011003551CF /* Moon-SwiftUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22C394DA2834E012003551CF /* Build configuration list for PBXNativeTarget "Moon-SwiftUI" */;
+			buildPhases = (
+				22C394C82834E011003551CF /* Sources */,
+				22C394C92834E011003551CF /* Frameworks */,
+				22C394CA2834E011003551CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Moon-SwiftUI";
+			packageProductDependencies = (
+				22A7216228363E000050EC2C /* SwiftfulLoadingIndicators */,
+				2248330C283CCB2A0016E074 /* NukeUI */,
+			);
+			productName = Scenario;
+			productReference = 22C394CC2834E011003551CF /* Moon-SwiftUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		22C394C42834E011003551CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					22C394CB2834E011003551CF = {
+						CreatedOnToolsVersion = 13.4;
+					};
+				};
+			};
+			buildConfigurationList = 22C394C72834E011003551CF /* Build configuration list for PBXProject "Moon-SwiftUI" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 22C394C32834E011003551CF;
+			packageReferences = (
+				22A7216128363E000050EC2C /* XCRemoteSwiftPackageReference "SwiftfulLoadingIndicators" */,
+				2248330B283CCB2A0016E074 /* XCRemoteSwiftPackageReference "NukeUI" */,
+			);
+			productRefGroup = 22C394CD2834E011003551CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				22C394CB2834E011003551CF /* Moon-SwiftUI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		22C394CA2834E011003551CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22C394D72834E012003551CF /* Preview Assets.xcassets in Resources */,
+				22C394D42834E012003551CF /* Assets.xcassets in Resources */,
+				22C394E32834EB40003551CF /* previewData.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22C394C82834E011003551CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22C394D22834E011003551CF /* AssetsView.swift in Sources */,
+				22266945283BDDD0008A4739 /* ErrorInfo.swift in Sources */,
+				22DB47992837897400220DBF /* OpenSeaServiceProtocol.swift in Sources */,
+				22C3950628353A69003551CF /* DetailsNavigationView.swift in Sources */,
+				222B25182848C3070058A2F0 /* DetailsGroup.swift in Sources */,
+				22DB479A2837897400220DBF /* CoinbaseServiceProtocol.swift in Sources */,
+				22DB47AD2837D91500220DBF /* PreviewData.swift in Sources */,
+				22C394D02834E011003551CF /* MoonApp.swift in Sources */,
+				22BAE95B284F4D1500CEE0B7 /* AddWalletButtons.swift in Sources */,
+				22483314283CFCB00016E074 /* ErrorView.swift in Sources */,
+				22266942283BC4CE008A4739 /* DetailsList.swift in Sources */,
+				22DB47AB283796CA00220DBF /* Array+Insertion.swift in Sources */,
+				22C394EE2834EE1A003551CF /* AssetsList.swift in Sources */,
+				2248330F283CD9250016E074 /* DetailsOpenButton.swift in Sources */,
+				22C394F728352025003551CF /* AssetsNavigationView.swift in Sources */,
+				22C394F02834EF30003551CF /* DetailsView.swift in Sources */,
+				22DB47A32837899600220DBF /* OpenSeaServiceModel.swift in Sources */,
+				22DB47A22837899600220DBF /* CoinbaseServiceModel.swift in Sources */,
+				22278E89284F7A9900835FA0 /* AddWalletViewModel.swift in Sources */,
+				22C395002835390C003551CF /* UINavigationController+UIGestureRecognizerDelegate.swift in Sources */,
+				22C394EC2834ECC9003551CF /* AssetRow.swift in Sources */,
+				22A7216028362CC40050EC2C /* AssetHeader.swift in Sources */,
+				22BAE959284F4D0400CEE0B7 /* AddWalletScrollView.swift in Sources */,
+				22FAC1E8285365F700FD671A /* View+HideKeyboard.swift in Sources */,
+				22A28A592847958700EE7263 /* DetailsTextView.swift in Sources */,
+				22BAE957284F4BF800CEE0B7 /* AddWalletNavigationView.swift in Sources */,
+				22266938283B7097008A4739 /* HeaderValues.swift in Sources */,
+				22BAE955284F4B6400CEE0B7 /* AddWalletView.swift in Sources */,
+				2226693A283BC2D9008A4739 /* OpenSeaError.swift in Sources */,
+				22483316283D00320016E074 /* PopupView.swift in Sources */,
+				22DB47A72837962D00220DBF /* Asset.swift in Sources */,
+				22DB47A52837924C00220DBF /* AssetsViewModel.swift in Sources */,
+				22DB47A02837899600220DBF /* CoinbaseError.swift in Sources */,
+				22A721652836693F0050EC2C /* CustomPagerView.swift in Sources */,
+				22266940283BC456008A4739 /* DetailsPager.swift in Sources */,
+				22C394FC2835313C003551CF /* ScaleListSelectionStyle.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		22C394D82834E012003551CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		22C394D92834E012003551CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		22C394DB2834E012003551CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Moon-SwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = 4ABMNPNS6D;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "co.luggy.Moon-SwiftUI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		22C394DC2834E012003551CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Moon-SwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = 4ABMNPNS6D;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "co.luggy.Moon-SwiftUI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22C394C72834E011003551CF /* Build configuration list for PBXProject "Moon-SwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22C394D82834E012003551CF /* Debug */,
+				22C394D92834E012003551CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22C394DA2834E012003551CF /* Build configuration list for PBXNativeTarget "Moon-SwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22C394DB2834E012003551CF /* Debug */,
+				22C394DC2834E012003551CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2248330B283CCB2A0016E074 /* XCRemoteSwiftPackageReference "NukeUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kean/NukeUI";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.8.1;
+			};
+		};
+		22A7216128363E000050EC2C /* XCRemoteSwiftPackageReference "SwiftfulLoadingIndicators" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftfulThinking/SwiftfulLoadingIndicators.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.0.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2248330C283CCB2A0016E074 /* NukeUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2248330B283CCB2A0016E074 /* XCRemoteSwiftPackageReference "NukeUI" */;
+			productName = NukeUI;
+		};
+		22A7216228363E000050EC2C /* SwiftfulLoadingIndicators */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 22A7216128363E000050EC2C /* XCRemoteSwiftPackageReference "SwiftfulLoadingIndicators" */;
+			productName = SwiftfulLoadingIndicators;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 22C394C42834E011003551CF /* Project object */;
+}
